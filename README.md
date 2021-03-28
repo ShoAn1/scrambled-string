@@ -44,12 +44,12 @@ $ docker run <image-name>
 ### Details
 ```
 The application requires two filepaths.
-1.Path for Dictionary file .
-2.Path for Grambled-String file .
+1. Path for Dictionary file .
+2. Path for Grambled-String file .
 ```
 
 ```
 For Docker container the below two files can be updated in current Directory.
-* strings.txt -> filename for list of grambled strings representing each line as independent string
-* dict.txt    -> dictionary for list of keywords in dictionary representing each line as independent word in the dictionary
+1. strings.txt -> filename for list of grambled strings representing each line as independent string
+2. dict.txt    -> dictionary for list of keywords in dictionary representing each line as independent word in the dictionary
 ```
