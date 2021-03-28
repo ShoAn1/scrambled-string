@@ -24,6 +24,12 @@ Update the path for Dictionary and Scrambled String
 ``` 
 $./scrambled-string --dictionary=[PATH OF DICTIONARY] --input=[PATH FOR SCRAMBLED STRING] 
 ```
+### Details
+```
+The application requires two filepaths.
+1. Path for Dictionary file .
+2. Path for Grambled-String file .
+```
 
 ## Building Docker Image For The Application
 
@@ -42,12 +48,6 @@ Build the Docker image using previous step
 $ docker run <image-name>
 ```
 ### Details
-```
-The application requires two filepaths.
-1. Path for Dictionary file .
-2. Path for Grambled-String file .
-```
-
 ```
 For Docker container the below two files can be updated in current Directory.
 1. strings.txt -> filename for list of grambled strings representing each line as independent string
