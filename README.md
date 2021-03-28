@@ -23,15 +23,19 @@ $ go run main.go
 ```
 
 ## Building Docker Image For The Application
+
 Copy the dict.txt and strings.txt to the current directory
+Run the Below command to build the image. 
 
 ```
-$
-$
+$ docker image build -t <image-name> .
 ```
 
 ## Running Docker Container For The Application 
-Build the Docker image using previous step
+
+Build the Docker image using previous step.
+Run the below command to run the container.
+
 ```
-$
+$ docker run <image-name>
 ```
