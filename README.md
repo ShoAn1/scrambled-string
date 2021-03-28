@@ -50,6 +50,6 @@ The application requires two filepaths.
 
 ```
 For Docker container the below two files can be updated in current Directory.
-1.strings.txt -> filename for list of grambled strings representing each line as independent string
-2.dict.txt    -> dictionary for list of keywords in dictionary representing each line as independent word in the dictionary
+* strings.txt -> filename for list of grambled strings representing each line as independent string
+* dict.txt    -> dictionary for list of keywords in dictionary representing each line as independent word in the dictionary
 ```
